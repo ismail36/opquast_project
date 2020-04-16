@@ -9,6 +9,9 @@
 </head>
 <body>
     <header>
-        <h2 class="titlePage">Application pour glossary et bon pratique pour OPQUAST</h2>
+        <div id="title">
+            <h2 class="titlePage">Application pour glossary et bon pratique pour OPQUAST</h2>
+        </div>
+        
     </header>
     <main>

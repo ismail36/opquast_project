@@ -1,5 +1,24 @@
+.forForm {
+  border: 3px solid #4CAF50;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: cornsilk;
+}
+
+.forForm > .form {
+  margin-left: 20px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.forForm > .form > input[type=submit] {
+  margin-left: 25px;
+}
+
 .form > input[type=submit] {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -18,7 +37,7 @@
     color: white; 
     border: 2px solid #4CAF50;
   }
-  
+
   .form > input[type=submit]:hover {
     background-color: white;
     color: #4CAF50;
@@ -33,13 +52,33 @@
     text-align: center;
   }
 
-  .form {
-      margin-top: 100px;
-      margin-left: 5%;
+  #title {
+    background-color: tomato;
+    margin-left: 10px;
+  margin-right: 10px;
   }
 
-  .titlePage {
-      font-size: 30px;
+  #title > h2 {
+    padding: 25px;
+    color: white;
+    font-size: 35px;
       text-align: center;
       margin-top: 50px;
+  }
+
+
+
+  .reponseList > ul {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 23px;
+  }
+  
+  
+
+  #forList {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
   }

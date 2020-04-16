@@ -45,8 +45,8 @@ function glossary() {
         // Debug
         // console.log(num);
         let glosDes = 
-        `<li>Titre: ${data[num].title}</li>
-        <li>Description: ${data[num].description}</li>`;
+        `<li class="titre"><strong style="color:red">Titre: </strong>${data[num].title}</li>
+        <li class="description"><strong style="color:red">Description: </strong>${data[num].description}</li>`;
         // Debug
         // console.log(glosDes);
         list.innerHTML = glosDes;
@@ -69,8 +69,8 @@ function pratique() {
         // Debug
         // console.log(num);
         let pracDes = 
-        `<li>Titre: ${data[num].title}</li>
-        <li>Objectives: ${data[num].objectives}</li>`;
+        `<li class="titreList"><strong style="color:red">Titre: </strong>${data[num].title}</li>
+        <li><strong style="color:red">Objectives: </strong>${data[num].objectives}</li>`;
         // Debug
         // console.log(pracDes);
         list.innerHTML = pracDes;
@@ -93,8 +93,8 @@ function pourGlos() {
                 // Debug
                 // console.log(data[i].title);
                 // console.log(data[i].description);
-                list.innerHTML += `<li> ${data[i].title} </li> 
-                                <li> ${data[i].description} </li> <hr>`;
+                list.innerHTML += `<li><strong style="color:red">Titre: </strong>${data[i].title} </li> 
+                                <li><strong style="color:red">Objectives: </strong>${data[i].description} </li> <hr>`;
             }
         };
     });
@@ -116,8 +116,8 @@ function pourPrat() {
                 // Debug
                 // console.log(data[i].title);
                 // console.log(data[i].description);
-                list.innerHTML += `<li>Title:  ${data[i].title} </li> 
-                                <li>Objectives:  ${data[i].objectives} </li> <hr>`;
+                list.innerHTML += `<li><strong style="color:red">Title:  </strong>${data[i].title} </li> 
+                                <li><strong style="color:red">Objectives:  </strong>${data[i].objectives} </li> <hr>`;
             }
         };
     });
